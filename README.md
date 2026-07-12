@@ -63,7 +63,7 @@ ai-research-assistant/
 ├── .env.example
 ├── data/
 │   └── sample_docs/
-│       └── company_handbook.txt   ← swap this with your own PDFs/txt files
+│       └── company_handbook.txt   ← swap this with own PDFs/txt files
 └── src/
     ├── rag_pipeline.py   ← loads docs, chunks them, embeds them, builds FAISS index
     ├── tools.py          ← defines the tools the agent can call
@@ -126,13 +126,11 @@ import in `src/agent_graph.py`, e.g. for Claude:
 from langchain_anthropic import ChatAnthropic
 llm = ChatAnthropic(model="claude-sonnet-4-6")
 ```
-and `pip install langchain-anthropic`, then set `ANTHROPIC_API_KEY` in `.env` instead. This is
-a good thing to mention in an interview — it shows you understand LangChain is *model-agnostic*:
-swapping providers is a one-line change because they all implement the same interface.
+and `pip install langchain-anthropic`, then set `ANTHROPIC_API_KEY` in `.env` instead.
 
 ---
 
-## 🎓 Key Concepts Demonstrated (great for interviews)
+## 🎓 Key Concepts Demonstrated
 
 | Concept | Where it lives | Why it matters |
 |---|---|---|
@@ -145,7 +143,7 @@ swapping providers is a one-line change because they all implement the same inte
 
 ---
 
-## 🚀 Ideas to extend it (mention these in your interview even if you don't build them)
+## 🚀 Ideas to extend it
 - Swap FAISS for a hosted vector DB (Pinecone, Chroma Cloud, Weaviate)
 - Add a "human-in-the-loop" node so the agent asks for approval before big actions
 - Add LangSmith for tracing/debugging the agent's reasoning steps
