@@ -1,0 +1,26 @@
+ACME CORP — EMPLOYEE HANDBOOK (SAMPLE DOCUMENT)
+
+1. REFUND POLICY
+Customers may request a full refund within 30 days of purchase, provided the product is
+returned in its original condition. Refunds are processed within 5–7 business days to the
+original payment method. Digital products are non-refundable once downloaded.
+
+2. WORK FROM HOME POLICY
+Employees may work from home up to 3 days per week, subject to manager approval. Employees
+must be reachable on Slack during core hours (10 AM – 4 PM local time).
+
+3. VACATION POLICY
+Full-time employees accrue 1.5 days of paid vacation per month, capped at 20 days per year.
+Unused vacation days roll over up to a maximum of 5 days into the following year.
+
+4. EXPENSE REIMBURSEMENT
+Employees can submit expense reports for approved business expenses within 60 days of the
+expense date. Reimbursements are processed in the next payroll cycle after approval.
+
+5. ONBOARDING PROCESS
+New employees complete a 2-week onboarding program that includes company orientation, tool
+setup, and a mentorship pairing with a senior team member for the first 90 days.
+
+This file exists so the Retrieval-Augmented Generation (RAG) pipeline has something concrete
+to search over. Replace this file (or add more .txt/.pdf files to this folder) with your own
+documents to make the project answer questions about YOUR data.
